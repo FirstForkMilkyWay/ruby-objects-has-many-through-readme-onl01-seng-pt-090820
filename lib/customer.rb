@@ -14,5 +14,7 @@ class Customer
     @@all 
   end 
   
+  def new_meal 
+  
   
 end
