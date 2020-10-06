@@ -16,7 +16,7 @@ attr_accessor :name, :age
   end 
   
   def new_meal(customer, total, tip=0)
-    Meal.new(self, customer, toatl ,tip)
+    Meal.new(self, customer, total ,tip)
   end 
   
   def meals 
@@ -24,6 +24,9 @@ attr_accessor :name, :age
       meal.waiter == self 
     end
   end 
+  
+  def best_tipper 
+    
     
 
 
