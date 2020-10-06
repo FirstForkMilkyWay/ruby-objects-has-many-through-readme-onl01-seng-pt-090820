@@ -1,3 +1,5 @@
+require'pry' 
+
 class Customer
   
   attr_accessor :name, :age 
@@ -19,7 +21,8 @@ class Customer
   end 
   
   def meals 
-    
+    Meal.all.each do |meal|
+      binding.pry 
   end
   
   
